@@ -19,7 +19,8 @@ function App() {
       }
       setPokemons(pokemons);
     }
-    loadApi(400)
+    console.log(pokemons)
+    loadApi(150)
   }, [])
 
   return (
